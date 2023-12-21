@@ -4,13 +4,13 @@ module.exports = {
     ////////////
     // Areas //
     //////////
-    circleGetArea: require(`${getAreaPath}`),
-    coneGetArea: require(`${getAreaPath}`),
-    rectangleGetArea: require(`${getAreaPath}`),
-    regularpolygonGetArea: require(`${getAreaPath}`),
-    rhombusGetArea: require(`${getAreaPath}`),
-    sphereGetArea: require(`${getAreaPath}`),
-    squareGetArea: require(`${getAreaPath}`),
-    trapezoidGetArea: require(`${getAreaPath}`),
-    triangleGetArea: require(`${getAreaPath}`)
+    circleGetArea: require(`${getAreaPath}/circle`),
+    coneGetArea: require(`${getAreaPath}/cone`),
+    rectangleGetArea: require(`${getAreaPath}/rectangle`),
+    regularpolygonGetArea: require(`${getAreaPath}/regularpolygon`),
+    rhombusGetArea: require(`${getAreaPath}/rhombus`),
+    sphereGetArea: require(`${getAreaPath}/sphere`),
+    squareGetArea: require(`${getAreaPath}/square`),
+    trapezoidGetArea: require(`${getAreaPath}/trapezoid`),
+    triangleGetArea: require(`${getAreaPath}/triangle`)
 };
