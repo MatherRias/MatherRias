@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["matherrias", "jw"],
+  "keywords": ["jw", "matherrias", "math"],
   "author": "",
   "license": "MIT"
 }
