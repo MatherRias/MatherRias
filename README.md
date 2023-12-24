@@ -4,8 +4,20 @@
   </a>
 </div>
 
-# `Areas`
+# `Type`
+[`Circle`](#circle)
+[`Cone`](#cone)
+[`Rectangle`](#rectangle)
+[`Regularpolygon`](#regularpolygon)
+[`Rhombus`](#rhombus)
+[`Sphere`](#sphere)
+[`Square`](#square)
+[`Trapezoid`](#trapezoid)
+[`Triangle`](#triangle)
+
 ## `Circle`
+[Area](#circlegetarea)
+### `circleGetArea`
 - `usage`
 ```
 /*
@@ -27,6 +39,8 @@ const result = circleGetArea(r, Pi);
 console.log(result);
 ```
 ## `Cone`
+[Area](#conegetarea)
+### `coneGetArea`
 - `usage`
 ```
 /*
@@ -48,6 +62,8 @@ const result = coneGetArea(radius, slantHeight);
 console.log(result);
 ```
 ## `Rectangle`
+[Area](#rectanglegetarea)
+### `rectangleGetArea`
 - `usage`
 ```
 /*
@@ -67,6 +83,8 @@ const area = rectangleGetArea(width, height);
 console.log(area);
 ```
 ## `Regularpolygon`
+[Area](#regularpolygongetarea)
+### `regularpolygonGetArea`
 - `usage`
 ```
 /*
@@ -88,6 +106,8 @@ const result = regularPolygonGetArea(P, a);
 console.log(result);
 ```
 ## `Rhombus`
+[Area](#rhombusgetarea)
+### `rhombusGetArea`
 - `usage`
 ```
 /*
@@ -109,6 +129,8 @@ const result = rhombusGetArea(D, d);
 console.log(result);
 ```
 ## `Sphere`
+[Area](#spheregetarea)
+### `sphereGetArea`
 - `usage`
 ```
 /*
@@ -126,6 +148,8 @@ const result = sphereGetArea(r);
 console.log(result);
 ```
 ## `Square`
+[Area](#squaregetarea)
+### `squareGetArea`
 - `usage`
 ```
 /*
@@ -143,6 +167,8 @@ const result = squareGetArea(l);
 console.log(result);
 ```
 ## `Trapezoid`
+[Area](#trapezoidgetarea)
+### `trapezoidGetArea`
 - `usage`
 ```
 /*
@@ -164,6 +190,8 @@ const result = trapezoidGetArea(B, b, h);
 console.log(result);
 ```
 ## `Triangle`
+[Area](#trianglegetarea)
+### `triangleGetArea`
 - `usage`
 ```
 /*
