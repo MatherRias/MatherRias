@@ -1,4 +1,5 @@
 const getAreaPath = './areas'
+const getVolumePath = './volumes'
 
 module.exports = {
     ////////////
@@ -12,5 +13,9 @@ module.exports = {
     sphereGetArea: require(`${getAreaPath}/sphere`),
     squareGetArea: require(`${getAreaPath}/square`),
     trapezoidGetArea: require(`${getAreaPath}/trapezoid`),
-    triangleGetArea: require(`${getAreaPath}/triangle`)
+    triangleGetArea: require(`${getAreaPath}/triangle`),
+    //////////////
+    // Volumes //
+    ////////////
+    cubeGetVolume: require(`${getVolumePath}/cube`)
 };

@@ -8,6 +8,7 @@
 # `Type`
 [`Circle`](#circle)
 [`Cone`](#cone)
+[`Cube`](#cube)
 [`Rectangle`](#rectangle)
 [`Regularpolygon`](#regularpolygon)
 [`Rhombus`](#rhombus)
@@ -82,6 +83,25 @@ const area = rectangleGetArea(width, height);
 
 // Output the result
 console.log(area);
+```
+## `Cube`
+[volume](#cubeGetVolume)
+### `cubeGetVolume`
+- `usage`
+```
+/*
+    @param s - Side length of the cube
+*/
+const cubeGetVolume = require('matherrias');
+
+// Set the side length value (replace '3' with your desired side length)
+const s = 3;
+
+// Calculate the volume using the cubeGetVolume function
+const volume = cubeGetVolume(s);
+
+// Output the result
+console.log(volume);
 ```
 ## `Regularpolygon`
 [Area](#regularpolygongetarea)
