@@ -17,5 +17,6 @@ module.exports = {
     //////////////
     // Volumes //
     ////////////
-    cubeGetVolume: require(`${getVolumePath}/cube`)
+    cubeGetVolume: require(`${getVolumePath}/cube`),
+    parallelepipedGetVolume: require(`${getVolumePath}/parallelepiped`),
 };

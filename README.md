@@ -9,6 +9,7 @@
 [`Circle`](#circle)
 [`Cone`](#cone)
 [`Cube`](#cube)
+[`Parallelepiped`](#parallelepiped)
 [`Rectangle`](#rectangle)
 [`Regularpolygon`](#regularpolygon)
 [`Rhombus`](#rhombus)
@@ -18,7 +19,7 @@
 [`Triangle`](#triangle)
 
 ## `Circle`
-[Area](#circlegetarea)
+[`Area`](#circlegetarea)
 ### `circleGetArea`
 - `usage`
 ```
@@ -41,7 +42,7 @@ const result = circleGetArea(r, Pi);
 console.log(result);
 ```
 ## `Cone`
-[Area](#conegetarea)
+[`Area`](#conegetarea)
 ### `coneGetArea`
 - `usage`
 ```
@@ -63,8 +64,50 @@ const result = coneGetArea(radius, slantHeight);
 // Output the result
 console.log(result);
 ```
+## `Cube`
+[`Volume`](#cubeGetVolume)
+### `cubeGetVolume`
+- `usage`
+```
+/*
+    @param s - Side length of the cube
+*/
+const cubeGetVolume = require('matherrias');
+
+// Set the side length value (replace '3' with your desired side length)
+const s = 3;
+
+// Calculate the volume using the cubeGetVolume function
+const volume = cubeGetVolume(s);
+
+// Output the result
+console.log(volume);
+```
+## `Parallelepiped`
+[`Volume`](#parallelepipedgetvolume)
+### `parallelepipedGetVolume`
+- `usage`
+```
+/*
+    @param l - Length of the parallelepiped
+    @param w - Width of the parallelepiped
+    @param h - Height of the parallelepiped
+*/
+const parallelepipedGetVolume = require('matherrias');
+
+// Set the dimensions of the parallelepiped
+const length = 3;  // Replace with your desired length
+const width = 4;   // Replace with your desired width
+const height = 5;  // Replace with your desired height
+
+// Calculate the volume using the parallelepipedGetVolume function
+const volume = parallelepipedGetVolume(length, width, height);
+
+// Output the result
+console.log(volume);
+```
 ## `Rectangle`
-[Area](#rectanglegetarea)
+[`Area`](#rectanglegetarea)
 ### `rectangleGetArea`
 - `usage`
 ```
@@ -84,27 +127,8 @@ const area = rectangleGetArea(width, height);
 // Output the result
 console.log(area);
 ```
-## `Cube`
-[volume](#cubeGetVolume)
-### `cubeGetVolume`
-- `usage`
-```
-/*
-    @param s - Side length of the cube
-*/
-const cubeGetVolume = require('matherrias');
-
-// Set the side length value (replace '3' with your desired side length)
-const s = 3;
-
-// Calculate the volume using the cubeGetVolume function
-const volume = cubeGetVolume(s);
-
-// Output the result
-console.log(volume);
-```
 ## `Regularpolygon`
-[Area](#regularpolygongetarea)
+[`Area`](#regularpolygongetarea)
 ### `regularpolygonGetArea`
 - `usage`
 ```
@@ -127,7 +151,7 @@ const result = regularPolygonGetArea(P, a);
 console.log(result);
 ```
 ## `Rhombus`
-[Area](#rhombusgetarea)
+[`Area`](#rhombusgetarea)
 ### `rhombusGetArea`
 - `usage`
 ```
@@ -150,7 +174,7 @@ const result = rhombusGetArea(D, d);
 console.log(result);
 ```
 ## `Sphere`
-[Area](#spheregetarea)
+[`Area`](#spheregetarea)
 ### `sphereGetArea`
 - `usage`
 ```
@@ -169,7 +193,7 @@ const result = sphereGetArea(r);
 console.log(result);
 ```
 ## `Square`
-[Area](#squaregetarea)
+[`Area`](#squaregetarea)
 ### `squareGetArea`
 - `usage`
 ```
@@ -188,7 +212,7 @@ const result = squareGetArea(l);
 console.log(result);
 ```
 ## `Trapezoid`
-[Area](#trapezoidgetarea)
+[`Area`](#trapezoidgetarea)
 ### `trapezoidGetArea`
 - `usage`
 ```
@@ -211,7 +235,7 @@ const result = trapezoidGetArea(B, b, h);
 console.log(result);
 ```
 ## `Triangle`
-[Area](#trianglegetarea)
+[`Area`](#trianglegetarea)
 ### `triangleGetArea`
 - `usage`
 ```
