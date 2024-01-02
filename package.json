@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/MatherRias/npmjs.git"
   },
+  "homepage": "https://matherrias.github.io/website-npmjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
